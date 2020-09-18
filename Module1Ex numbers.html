@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Number Fun</title>
+    <link href="Module1Ex numbers.css" rel="stylesheet" type="text/css" />
+    <script src="Module1Ex numbers.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-8 offset-2 text-center"><h1>Welcome to Number Fun<span id="name"></span></h1></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 offset-3 text-center box">
+            Operand #1: <input type="number" id="first"><span class="offset-1">Operand #2: </span><input type="number" id="second">
+            <button type="button" class="btn btn-primary offset-1">Enter</button>
+        </div>
+    </div>
+    <div class="row"> <!-- not necessarily every row of text, but a box like in this case -->
+        <div class="col-sm-8 offset-2 text-center box"> 
+            <p>sum of <span class="x">x</span> and <span class="y">y</span> is <span id="sum">?</span></p> <!-- same class if I re-use it in JS -->
+            <p>The difference between <span class="x">x</span> and <span class="y">y</span> is <span id="diff">?</span></p>
+            <p>The product of <span class="x">x</span> and <span class="y">y</span> is <span id="product">?</span></p>
+            <p>The quotient of <span class="x">x</span> and <span class="y">y</span> is <span id="quot">?</span></p>
+            <p>The result of the mod operation on <span class="x">x</span> and <span class="y">y</span> is <span id="mod">?</span></p>
+        </div>
+    </div>
+
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

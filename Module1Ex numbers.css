@@ -1,0 +1,23 @@
+
+h1
+{
+    color: rgb(151, 77, 77);
+}
+.box
+{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+input /* just a bit smaller */
+{
+    width: 20%;
+}
+button /* Q: trying to figure how to make some space on top and bottom */
+{
+    /* margin-top: 2px; */
+    
+}
+.x, .y
+{
+    color: goldenrod;
+}
