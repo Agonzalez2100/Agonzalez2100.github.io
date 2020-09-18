@@ -1,0 +1,20 @@
+@media (min-width: 576px)
+{
+    .jumbotron
+    {
+        padding: 0.5rem 2rem;
+        margin-bottom: 0rem;
+    }  
+}
+.jumbotron
+{
+    color: purple;
+}
+html, body, .jumbotron
+{
+    background-color: lightgray;
+}
+button
+{
+    margin-left: 1%;
+}

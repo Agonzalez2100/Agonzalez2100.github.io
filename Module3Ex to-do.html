@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>To-do List</title>
+    <script src="Module3Ex to-do.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="Module3Ex to-do.css" rel="stylesheet" type="text/css" /> <!-- must go after BS CSS so that my changes effectuate -->
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1 class="display-4">TO-DO:</h1>
+        <p class="lead">Add tasks, clear all tasks, or mark individual tasks as done!</p>
+    </div>
+    <div class="row"> 
+        <input type="text" class="col-md-2 offset-4 rounded"> <!-- the shading is nice, and unexpected. lots of BS classes. -->
+        <button type="button" id="add" class="btn border-dark btn-primary">ADD</button>
+        <button type="button" id="clear" class="btn border-dark btn-danger">CLEAR</button>
+    </div>
+
+    <div id="outsideTasks">
+        <div id="tasks"> 
+        </div>
+    </div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> <!-- uses JQ -->
+</body>
+</html>
